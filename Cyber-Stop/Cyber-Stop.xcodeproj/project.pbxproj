@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4BE97BD28910AB600866977 /* Submitted.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE97BC28910AB600866977 /* Submitted.swift */; };
+		C4BE97BF2892558700866977 /* Mindful.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE97BE2892558600866977 /* Mindful.swift */; };
+		C4CB0709288F3C2E00F2199C /* Cyber_StopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB0708288F3C2E00F2199C /* Cyber_StopApp.swift */; };
+		C4CB070B288F3C2E00F2199C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB070A288F3C2E00F2199C /* ContentView.swift */; };
+		C4CB070D288F3C3200F2199C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CB070C288F3C3200F2199C /* Assets.xcassets */; };
+		C4CB0710288F3C3200F2199C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CB070F288F3C3200F2199C /* Preview Assets.xcassets */; };
+		C4CB071A288F3C3300F2199C /* Cyber_StopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB0719288F3C3300F2199C /* Cyber_StopTests.swift */; };
+		C4CB0724288F3C3300F2199C /* Cyber_StopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB0723288F3C3300F2199C /* Cyber_StopUITests.swift */; };
+		C4CB0726288F3C3300F2199C /* Cyber_StopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB0725288F3C3300F2199C /* Cyber_StopUITestsLaunchTests.swift */; };
+		C4CB0735288F96EF00F2199C /* ReportForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB0734288F96EF00F2199C /* ReportForm.swift */; };
+		C4CB073B2890DB6C00F2199C /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB073A2890DB6C00F2199C /* Resources.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4CB0716288F3C3300F2199C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4CB06FD288F3C2E00F2199C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CB0704288F3C2E00F2199C;
+			remoteInfo = "Cyber-Stop";
+		};
+		C4CB0720288F3C3300F2199C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4CB06FD288F3C2E00F2199C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CB0704288F3C2E00F2199C;
+			remoteInfo = "Cyber-Stop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4BE97BC28910AB600866977 /* Submitted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submitted.swift; sourceTree = "<group>"; };
+		C4BE97BE2892558600866977 /* Mindful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindful.swift; sourceTree = "<group>"; };
+		C4CB0705288F3C2E00F2199C /* Cyber-Stop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cyber-Stop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB0708288F3C2E00F2199C /* Cyber_StopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_StopApp.swift; sourceTree = "<group>"; };
+		C4CB070A288F3C2E00F2199C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4CB070C288F3C3200F2199C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4CB070F288F3C3200F2199C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4CB0715288F3C3300F2199C /* Cyber-StopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cyber-StopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB0719288F3C3300F2199C /* Cyber_StopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_StopTests.swift; sourceTree = "<group>"; };
+		C4CB071F288F3C3300F2199C /* Cyber-StopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cyber-StopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB0723288F3C3300F2199C /* Cyber_StopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_StopUITests.swift; sourceTree = "<group>"; };
+		C4CB0725288F3C3300F2199C /* Cyber_StopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cyber_StopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4CB0734288F96EF00F2199C /* ReportForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportForm.swift; sourceTree = "<group>"; };
+		C4CB073A2890DB6C00F2199C /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4CB0702288F3C2E00F2199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB0712288F3C3300F2199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB071C288F3C3300F2199C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4CB06FC288F3C2E00F2199C = {
+			isa = PBXGroup;
+			children = (
+				C4CB0707288F3C2E00F2199C /* Cyber-Stop */,
+				C4CB0718288F3C3300F2199C /* Cyber-StopTests */,
+				C4CB0722288F3C3300F2199C /* Cyber-StopUITests */,
+				C4CB0706288F3C2E00F2199C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4CB0706288F3C2E00F2199C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB0705288F3C2E00F2199C /* Cyber-Stop.app */,
+				C4CB0715288F3C3300F2199C /* Cyber-StopTests.xctest */,
+				C4CB071F288F3C3300F2199C /* Cyber-StopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4CB0707288F3C2E00F2199C /* Cyber-Stop */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB0708288F3C2E00F2199C /* Cyber_StopApp.swift */,
+				C4CB070A288F3C2E00F2199C /* ContentView.swift */,
+				C4BE97BE2892558600866977 /* Mindful.swift */,
+				C4CB073A2890DB6C00F2199C /* Resources.swift */,
+				C4CB0734288F96EF00F2199C /* ReportForm.swift */,
+				C4BE97BC28910AB600866977 /* Submitted.swift */,
+				C4CB070C288F3C3200F2199C /* Assets.xcassets */,
+				C4CB070E288F3C3200F2199C /* Preview Content */,
+			);
+			path = "Cyber-Stop";
+			sourceTree = "<group>";
+		};
+		C4CB070E288F3C3200F2199C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB070F288F3C3200F2199C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4CB0718288F3C3300F2199C /* Cyber-StopTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB0719288F3C3300F2199C /* Cyber_StopTests.swift */,
+			);
+			path = "Cyber-StopTests";
+			sourceTree = "<group>";
+		};
+		C4CB0722288F3C3300F2199C /* Cyber-StopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB0723288F3C3300F2199C /* Cyber_StopUITests.swift */,
+				C4CB0725288F3C3300F2199C /* Cyber_StopUITestsLaunchTests.swift */,
+			);
+			path = "Cyber-StopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4CB0704288F3C2E00F2199C /* Cyber-Stop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CB0729288F3C3300F2199C /* Build configuration list for PBXNativeTarget "Cyber-Stop" */;
+			buildPhases = (
+				C4CB0701288F3C2E00F2199C /* Sources */,
+				C4CB0702288F3C2E00F2199C /* Frameworks */,
+				C4CB0703288F3C2E00F2199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cyber-Stop";
+			productName = "Cyber-Stop";
+			productReference = C4CB0705288F3C2E00F2199C /* Cyber-Stop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4CB0714288F3C3300F2199C /* Cyber-StopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CB072C288F3C3300F2199C /* Build configuration list for PBXNativeTarget "Cyber-StopTests" */;
+			buildPhases = (
+				C4CB0711288F3C3300F2199C /* Sources */,
+				C4CB0712288F3C3300F2199C /* Frameworks */,
+				C4CB0713288F3C3300F2199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CB0717288F3C3300F2199C /* PBXTargetDependency */,
+			);
+			name = "Cyber-StopTests";
+			productName = "Cyber-StopTests";
+			productReference = C4CB0715288F3C3300F2199C /* Cyber-StopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4CB071E288F3C3300F2199C /* Cyber-StopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CB072F288F3C3300F2199C /* Build configuration list for PBXNativeTarget "Cyber-StopUITests" */;
+			buildPhases = (
+				C4CB071B288F3C3300F2199C /* Sources */,
+				C4CB071C288F3C3300F2199C /* Frameworks */,
+				C4CB071D288F3C3300F2199C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CB0721288F3C3300F2199C /* PBXTargetDependency */,
+			);
+			name = "Cyber-StopUITests";
+			productName = "Cyber-StopUITests";
+			productReference = C4CB071F288F3C3300F2199C /* Cyber-StopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4CB06FD288F3C2E00F2199C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C4CB0704288F3C2E00F2199C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C4CB0714288F3C3300F2199C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C4CB0704288F3C2E00F2199C;
+					};
+					C4CB071E288F3C3300F2199C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C4CB0704288F3C2E00F2199C;
+					};
+				};
+			};
+			buildConfigurationList = C4CB0700288F3C2E00F2199C /* Build configuration list for PBXProject "Cyber-Stop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4CB06FC288F3C2E00F2199C;
+			productRefGroup = C4CB0706288F3C2E00F2199C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4CB0704288F3C2E00F2199C /* Cyber-Stop */,
+				C4CB0714288F3C3300F2199C /* Cyber-StopTests */,
+				C4CB071E288F3C3300F2199C /* Cyber-StopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4CB0703288F3C2E00F2199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB0710288F3C3200F2199C /* Preview Assets.xcassets in Resources */,
+				C4CB070D288F3C3200F2199C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB0713288F3C3300F2199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB071D288F3C3300F2199C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4CB0701288F3C2E00F2199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB070B288F3C2E00F2199C /* ContentView.swift in Sources */,
+				C4BE97BF2892558700866977 /* Mindful.swift in Sources */,
+				C4CB073B2890DB6C00F2199C /* Resources.swift in Sources */,
+				C4CB0735288F96EF00F2199C /* ReportForm.swift in Sources */,
+				C4CB0709288F3C2E00F2199C /* Cyber_StopApp.swift in Sources */,
+				C4BE97BD28910AB600866977 /* Submitted.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB0711288F3C3300F2199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB071A288F3C3300F2199C /* Cyber_StopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CB071B288F3C3300F2199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CB0726288F3C3300F2199C /* Cyber_StopUITestsLaunchTests.swift in Sources */,
+				C4CB0724288F3C3300F2199C /* Cyber_StopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4CB0717288F3C3300F2199C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CB0704288F3C2E00F2199C /* Cyber-Stop */;
+			targetProxy = C4CB0716288F3C3300F2199C /* PBXContainerItemProxy */;
+		};
+		C4CB0721288F3C3300F2199C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CB0704288F3C2E00F2199C /* Cyber-Stop */;
+			targetProxy = C4CB0720288F3C3300F2199C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4CB0727288F3C3300F2199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4CB0728288F3C3300F2199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CB072A288F3C3300F2199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyber-Stop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cyber-Stop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4CB072B288F3C3300F2199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyber-Stop/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cyber-Stop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4CB072D288F3C3300F2199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cyber-StopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyber-Stop.app/Cyber-Stop";
+			};
+			name = Debug;
+		};
+		C4CB072E288F3C3300F2199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cyber-StopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyber-Stop.app/Cyber-Stop";
+			};
+			name = Release;
+		};
+		C4CB0730288F3C3300F2199C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cyber-StopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cyber-Stop";
+			};
+			name = Debug;
+		};
+		C4CB0731288F3C3300F2199C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.Cyber-StopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cyber-Stop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4CB0700288F3C2E00F2199C /* Build configuration list for PBXProject "Cyber-Stop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB0727288F3C3300F2199C /* Debug */,
+				C4CB0728288F3C3300F2199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CB0729288F3C3300F2199C /* Build configuration list for PBXNativeTarget "Cyber-Stop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB072A288F3C3300F2199C /* Debug */,
+				C4CB072B288F3C3300F2199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CB072C288F3C3300F2199C /* Build configuration list for PBXNativeTarget "Cyber-StopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB072D288F3C3300F2199C /* Debug */,
+				C4CB072E288F3C3300F2199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CB072F288F3C3300F2199C /* Build configuration list for PBXNativeTarget "Cyber-StopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CB0730288F3C3300F2199C /* Debug */,
+				C4CB0731288F3C3300F2199C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4CB06FD288F3C2E00F2199C /* Project object */;
+}
